@@ -1,18 +1,27 @@
-<h3 align="center">The gateway between your team and your infrastructure.</h3>
+<h1 align="center">
+One Gateway Between Your Identities and Your Infrastructure.
+</h1>
+
+<h3 align="center">
+The hoop.dev gateway masks sensitive data before it reaches the client, blocks dangerous commands before they execute, requires approval on risky operations, and records every session.
+</h3>
 
 <p align="center">
-  Hoop parses wire protocols in real time. It masks sensitive data before it reaches the client, blocks dangerous commands before they execute, and records every session. One gateway covers databases, Kubernetes, SSH, AI agents, and MCP servers.
+  Engineers · AI Agents · MCP Clients · Services · Support/QA
 </p>
 
 <p align="center">
-  <a href="https://hoop.dev">Website</a> · <a href="https://hoop.dev/docs">Docs</a> · <a href="https://github.com/hoophq/hoop/discussions">Discussions</a> · <a href="https://hoop.dev/open-source">Open Source</a>
+Open-source. Used by NYSE-listed companies. 5,000+ databases protected.<br/>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT License" />
-  <img src="https://img.shields.io/badge/CNCF-Member-blue" alt="CNCF Member" />
-  <img src="https://img.shields.io/badge/SOC_2-Type_II-green" alt="SOC 2 Type II" />
+  <a href="https://github.com/hoophq/hoop/releases"><img src="https://img.shields.io/github/v/release/hoophq/hoop?style=flat-square" alt="release"></a>
+  <a href="https://github.com/hoophq/hoop/blob/main/LICENSE"><img src="https://img.shields.io/github/license/hoophq/hoop?style=flat-square" alt="license"></a>
+  <a href="https://hub.docker.com/r/hoophq/hoop"><img src="https://img.shields.io/docker/pulls/hoophq/hoop?style=flat-square" alt="docker pulls"></a>
+  <a href="https://github.com/hoophq/hoop/stargazers"><img src="https://img.shields.io/github/stars/hoophq/hoop?style=flat-square" alt="stars"></a>
+  <a href="https://hoop.dev/slack"><img src="https://img.shields.io/badge/slack-join-blueviolet?style=flat-square" alt="slack"></a>
 </p>
+
 
 ---
 
