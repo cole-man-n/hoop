@@ -67,17 +67,16 @@ An engineer pulls recent payments to investigate a customer report:
 SELECT * FROM payments LIMIT 10;
 ```
 
-<pre>
-
-| id | customer_email | card_number | amount | status |
-| --- | --- | --- | --- | --- |
-| 84021 | [jane.thompson@gmail.com](mailto:jane.thompson@gmail.com) | 4532-1024-5678-9012 | 49.99 | settled |
-| 84022 | [mreyes@acmecorp.io](mailto:mreyes@acmecorp.io) | 5412-7510-3344-1182 | 120.00 | settled |
-| 84023 | [k.patel@protonmail.com](mailto:k.patel@protonmail.com) | 4716-9923-1144-5577 | 24.99 | refunded |
-| 84024 | [dlin@northwind.co](mailto:dlin@northwind.co) | 5577-3344-9911-2266 | 89.50 | settled |
-| 84025 | [tyler.s@gmail.com](mailto:tyler.s@gmail.com) | 4111-2222-3333-4444 | 15.00 | failed |
-| ... |  |  |  |  |
-| </pre> |  |  |  |  |
+```
+ id    | customer_email          | card_number          | amount | status
+-------+-------------------------+----------------------+--------+----------
+ 84021 | jane.thompson@gmail.com | 4532-1024-5678-9012  |  49.99 | settled
+ 84022 | mreyes@acmecorp.io      | 5412-7510-3344-1182  | 120.00 | settled
+ 84023 | k.patel@protonmail.com  | 4716-9923-1144-5577  |  24.99 | refunded
+ 84024 | dlin@northwind.co       | 5577-3344-9911-2266  |  89.50 | settled
+ 84025 | tyler.s@gmail.com       | 4111-2222-3333-4444  |  15.00 | failed
+ ...
+```
 
 10 rows of real card numbers and emails. Now in `psql` history, in the screenshot the engineer pasted into Slack, and in the CSV they exported to debug locally.
 
@@ -87,17 +86,16 @@ SELECT * FROM payments LIMIT 10;
 SELECT * FROM payments LIMIT 10;
 ```
 
-<pre>
-
-| id | customer_email | card_number | amount | status |
-| --- | --- | --- | --- | --- |
-| 84021 | j****@*****.com | **-**-****-9012 | 49.99 | settled |
-| 84022 | m****@*******.io | **-**-****-1182 | 120.00 | settled |
-| 84023 | k****@*********.com | **-**-****-5577 | 24.99 | refunded |
-| 84024 | d****@*********.co | **-**-****-2266 | 89.50 | settled |
-| 84025 | t****@*****.com | **-**-****-4444 | 15.00 | failed |
-| ... |  |  |  |  |
-| </pre> |  |  |  |  |
+```
+ id    | customer_email        | card_number         | amount | status
+-------+-----------------------+---------------------+--------+----------
+ 84021 | j****@*****.com       | **-**-****-9012     |  49.99 | settled
+ 84022 | m****@*******.io      | **-**-****-1182     | 120.00 | settled
+ 84023 | k****@*********.com   | **-**-****-5577     |  24.99 | refunded
+ 84024 | d****@*********.co    | **-**-****-2266     |  89.50 | settled
+ 84025 | t****@*****.com       | **-**-****-4444     |  15.00 | failed
+ ...
+```
 
 Engineers can still debug using amounts, statuses, and timestamps. PII never leaves the gateway.
 
