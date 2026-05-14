@@ -255,7 +255,7 @@ docker compose up
  
 ## What's New
  
-### May 13, 2026 — Admin MCP server
+### May 14, 2026 — Admin MCP server
  
 AI agents can now manage hoop itself. Connect Claude Code, Cursor, or any MCP-compatible client and the agent can configure connections, guardrails, data masking, and reviews — the same surface a human admin uses.
  
