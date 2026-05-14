@@ -279,7 +279,7 @@ Join our [Discussions](https://github.com/hoophq/hoop/discussions) to ask questi
 
 ---
 
-## Star the repo
+## Star the Repository
 
 If hoop solves a problem for you, give us a star. It helps other teams find the project and tells us what to invest in next.
 
