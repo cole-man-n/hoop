@@ -276,6 +276,16 @@ We welcome contributions. Protocol parsers, masking patterns, guardrail rules, r
 ## Community
  
 Join our [Discussions](https://github.com/hoophq/hoop/discussions) to ask questions, share ideas, and connect with other users.
+
+---
+
+## Star the repo
+
+If hoop solves a problem for you, give us a star. It helps other teams find the project and tells us what to invest in next.
+
+<p >
+<a href="https://github.com/hoophq/hoop"><img src="https://img.shields.io/github/stars/hoophq/hoop?style=social" alt="Star hoop on GitHub"></a>
+</p>
  
 ---
  
